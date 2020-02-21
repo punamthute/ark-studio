@@ -1,70 +1,175 @@
-
 .transparent_nav
 {
-    background-color: #dbdad5;
-    
-}
-.nav_bar
-{
-    margin-top: -100px;
-    margin-left: 700px;
-    
-}
-
-   .brand
-{
-    background-color: #dadde3;
-    height: 60px;
-}
-.footer {
-    height: 350px;
+    background-color:#dbdad5;
+    height:500px; 
     width: 100%;
-    background-color: black;
-    color: white;
-    margin-top: -20px;
-
-}
-.footer_widget
-{
+    padding-top: 40px;
+    text-decoration: none;
+    height: 50px
+   
   
-  padding-top: 40px;
-  margin-left:180px ;
 }
 
-.Comp_list
+#nav_list
 {
-    margin-top: -150px;
-    margin-left: 400px;
+   margin-top: -50px;
+   margin-left: 700px;
+  
+   
 }
-.support-list
+   
+#nav_list>li{
+    display: inline;
+    padding-top:10px;
+   
+   
+   
+  
+}
+
+.cta
 {
-   margin-left: 600px;
-   margin-top: -120px ;
+    background-color: #dbdad5;
+    height: 70px;
+    margin-bottom: 30px;
+
 }
-.footer_widget3
+#cta_text
 {
-margin-top: -130px;
-margin-left: 800px;
+    margin-top: 900px;
+    padding-top: 22px;
+    margin-left: 30px;
+}
+#cta_link
+{
+    
+    
+    background-color: #05d9e8;
+    padding:8px;
+    padding-bottom: 2px;
+    margin-left: 900px;
+    
+   
+}
+h2{
+    text-align: center;
+   
+   
+   
+    
+}
+.block
+{
+    margin-left: 200px;
+    margin-top: 40px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.block1{
+    margin-left: 600px;
+    margin-top: -140px;
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+.block2{
+    margin-left: 980px;
+    margin-top: -140px;
+    list-style-type: none;
+    margin-bottom: 10px;
 }
 
 
 
+#nav_item_1{
+  padding:10px; 
+  text-decoration: none; 
+}
+#nav_item_2{
+    padding:10px;  
+    text-decoration: none; 
+  }
+
+  #nav_item_3{
+    padding:10px; 
+    text-decoration: none;  
+  }
+
+  #nav_item_4{
+    padding:10px; 
+    text-decoration: none;  
+  }
+  .footer_widget
+{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    color: white;
+   
+    padding-left: 50px;
+    margin-top: 30px;
+}
+#comp_list{
+    margin-left: 380px;
+    list-style-type: none;
+    
+    margin-top: 20px;
+    
+}
+#sup_list
+{
+    list-style-type: none;
+   
+    margin-top: 30px;
+    margin-left: 700px;  
+}
 .footer1
 {
-    background-color:#56595e;
-    padding-bottom: 70px;
-    width: 650px;
-    margin-left: 400px;
-    height: 1px;
+    height: 50px;
+    width: 50%;
+    background-color: gray;
+    margin-left: 260px;
     
-
 }
-button{
-    background-color:#39a5e3;
+.footer{
+    margin-top: -850px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-left: 50px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .testimonials_wrapper {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .testimonials_wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
    
-    margin-top: -30px;
-    float: right;
-    margin-right: 40px;
-    
-
-}
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+   
+    padding: 16px;
+    text-align: center;
+  
+  }
+  .rights
+  {
+      margin-top: 150px;
+      margin-left: 500px;
+  }
