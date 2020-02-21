@@ -105,9 +105,10 @@ h2{
     height: 400px;
     width: 100%;
     color: white;
+    margin-top: -100px;
    
     padding-left: 50px;
-    margin-top: 170px;
+   
 }
 #comp_list{
     margin-left: 380px;
@@ -127,14 +128,17 @@ h2{
 {
     height: 50px;
     width: 50%;
-    background-color: gray;
+    margin-top: -900px;
     margin-left: 260px;
+    color:white;
+    
+  
+    
+    
     
     
 }
-.footer{
-    margin-top: -750px;
-}
+
 .column {
     float: left;
     width: 25%;
@@ -162,6 +166,18 @@ h2{
   }
   .rights
   {
-      margin-top: 150px;
+      margin-top: 100px;
       margin-left: 500px;
   }
+  .span
+  {
+      height: 60px;
+      background-color: #dbdad5;
+      margin-top: 150px;
+      padding-top: 40px;
+      color: white;
+      word-spacing: 20px;
+      padding-left: 450px;
+  }
+
+  
